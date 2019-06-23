@@ -1,3 +1,16 @@
+body {
+  margin: 0;
+}
+
+.hex-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(59, 73, 92);
+}
+
 .hex-box-wrapper {
   display: flex;
   justify-content: center;
