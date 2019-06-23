@@ -1,10 +1,16 @@
+// VARIABLES
 const hexBoxParent = document.querySelectorAll('.hex-box-wrapper');
+const hexBoxChildren = document.querySelectorAll('.hex-box')
+
+// EVENT LISTENERS
+document.addEventListener('keypress', keyPressed)
 
 for (var i = 0; i < hexBoxParent.length; i++) {
   var childElement = hexBoxParent[i];
   childElement.addEventListener('mouseover', applyColor, false);
 }
 
+// FUNCTIONS
 function applyColor(event) {
   if (event.target !== event.currentTarget) {
     var hoveredItem = event.target;
@@ -22,3 +28,12 @@ function randomHex() {
   }
       return `#${hex.join('')}`
 }
+
+function keyPressed(event) {
+  if (event.which == 13 || event.keyCode == 13) {
+    for (var i = 0; i < hexBoxChildren.length; i++) {
+      var childElement = hexBoxChildren[i];
+      childElement.style.backgroundColor = 'rgb(127, 139, 166)'
+    }
+  }
+};
