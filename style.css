@@ -1,0 +1,13 @@
+.hex-box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(59, 73, 92);
+}
+
+.hex-box {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(127, 139, 166);
+}
