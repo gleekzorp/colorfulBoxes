@@ -23,7 +23,15 @@ body {
   width: 100px;
   height: 100px;
   background-color: rgb(127, 139, 166);
+  border: 1px transparent solid;
+  transition: 0.5s;
 }
+
+.hex-box:hover {
+  border: 1px solid white;
+  text-decoration: none;
+}
+
 
 #press-enter {
   display: flex;
