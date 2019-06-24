@@ -22,7 +22,8 @@ body {
   background-color: black;
   width: 100px;
   height: 100px;
-  background-color: rgb(127, 139, 166);
+  /* background-color: rgb(127, 139, 166); */
+  background-color: rgb(59, 73, 92);
   border: 1px transparent solid;
   transition: 0.5s;
 }

@@ -38,7 +38,8 @@ function keyPressed(event) {
   if (event.which == 13 || event.keyCode == 13) {
     for (var i = 0; i < hexBoxChildren.length; i++) {
       var childElement = hexBoxChildren[i];
-      childElement.style.backgroundColor = 'rgb(127, 139, 166)';
+      // childElement.style.backgroundColor = 'rgb(127, 139, 166)';
+      childElement.style.backgroundColor = 'rgb(59, 73, 92)';
     }
   }
 };
