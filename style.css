@@ -25,12 +25,11 @@ body {
   background-color: rgb(127, 139, 166);
 }
 
-#reset {
+#press-enter {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 900;
   font-family: sans-serif;
   color: #FFF;
-  
 }
