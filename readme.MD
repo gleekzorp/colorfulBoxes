@@ -9,3 +9,4 @@ Hover over the boxes to generate a random hexidecimal
 - [ ] Autogenerate the div boxes
 - [x] Enter appears in box when hovered over
 - [ ] convert both for loops to forEach
+- [x] Add border and transition on hover
