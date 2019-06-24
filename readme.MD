@@ -7,5 +7,5 @@ Hover over the boxes to generate a random hexidecimal
 
 - [x] Reset Button
 - [ ] Autogenerate the div boxes
-- [ ] Enter appears in box when hovered over
-- [ ] convert both for loops to forEach   
+- [x] Enter appears in box when hovered over
+- [ ] convert both for loops to forEach
