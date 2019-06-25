@@ -1,6 +1,8 @@
 # SundayFunday
 
-Hover over the boxes to generate a random hexidecimal
+Hover over the boxes to generate a random hexidecimal.
+
+[Live Version Of Code](https://colorful-boxes.netlify.com/)
 
 ---
 # Stretch Goals
